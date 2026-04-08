@@ -20,6 +20,6 @@
         $nDecNum += ($nOctDight * $nOctPower);
         $nOctPower *= 8;
     }
-    printf("The decenary equivalent of the octal number %s is %d\r\n", $strLine, $nDecNum);
+    printf("The decimal equivalent of the octal number %s is %d\r\n", $strLine, $nDecNum);
     fgetc(STDIN);
 ?>

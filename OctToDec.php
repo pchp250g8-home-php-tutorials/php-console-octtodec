@@ -2,7 +2,7 @@
     const MAX_INT = 2 ** 32 - 1;
     $nDecNum = 0;
     $nOctPower = 1;
-    $nMaxOctDigits = floor(log(MAX_INT, 8));
+    $nMaxOctDigits = ceil(log(MAX_INT, 8));
     echo("Input an octal number:\r\n");
     $strLine = chop(fgets(STDIN));
     $nStrLen = strlen($strLine);
